@@ -1,9 +1,9 @@
 #require 'pry'
 
-def plus_two(num)
-	num + 2
-	num
+def plus_two(num = 3)
+   sum = num + 2
+	 sum 
 	#binding.pry
 end
 
-plus_two(3)
+plus_two
